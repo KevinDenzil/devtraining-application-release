@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="86495a7d93cee21033e4f55f7bba104b" extends="task" label="NeedIt2" max_length="40" name="x_58872_needit_needit2" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request Type" max_length="40" name="u_req_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Legal" sequence="1" value="legal"/>
+                <element inactive_on_update="false" label="Facilities" sequence="2" value="facilities"/>
+                <element inactive_on_update="false" label="Human Resources" sequence="0" value="hr"/>
+            </choice>
+        </element>
+    </element>
+</database>
